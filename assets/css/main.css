@@ -1457,3 +1457,38 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* =====================================
+   Custom Skills Logo Styling
+===================================== */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.skill-item {
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.skill-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-item img:hover {
+  transform: scale(1.1);
+}
+
+.skill-item p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
